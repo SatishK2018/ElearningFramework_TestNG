@@ -34,7 +34,7 @@ public class DriverFactory {
 			// TODO 
 		}
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;
 	}

@@ -22,8 +22,8 @@ public class ReadExcel {
 
 				int totalNoOfCols = sh.getColumns();
 				int totalNoOfRows = sh.getRows();
-				System.out.println("Total Number Of Rows : " +totalNoOfRows);
-				System.out.println("Number of Cols " + totalNoOfCols);
+				/*System.out.println("Total Number Of Rows : " +totalNoOfRows);
+				System.out.println("Number of Cols " + totalNoOfCols);*/
 				
 				arrayExcelData = new String[totalNoOfRows-1][totalNoOfCols];
 				
